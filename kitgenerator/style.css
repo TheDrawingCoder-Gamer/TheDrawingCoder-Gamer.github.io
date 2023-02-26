@@ -8,10 +8,9 @@
 html, body {
 	background-color: #2c2c2c;
 	color: white;
-	font-family: "Splatoon 2", sans-serif;
 }
 * {
-	font-family: "Splatoon 2", sans-serif;
+	font-family: sans-serif;
 }
 @font-face {
 	font-family: "Splatoon 2";
