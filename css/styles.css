@@ -1,0 +1,118 @@
+
+
+html { margin: 0; padding: 0; }
+body {
+	/* I thought this was only for inkscape and svgs !! */
+	background-image: linear-gradient(180deg, #fcbbb3, salmon);
+	background-color: salmon;
+	/* derived from https://stackoverflow.com/questions/16841323/making-gradient-background-fill-page-with-css/31712795#31712795 */
+	background-attachment: fixed;
+	/* Noto Sans is the default font on my linux system */
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
+	padding: 0;
+	/* banner scales with vh so this must too */
+	padding-top: 10vh;
+	/* i am going insane footer i beg you stay at the bottom */
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 0;
+}
+.centered {
+	text-align: center;
+}
+#banner {
+	background-color: crimson;
+	color: white;
+	margin: 0 0 128px 0;
+	width: 100%;
+	height: 5vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: row;
+}
+#banner > a {
+	flex-grow: 0;
+}
+#banner img {
+	height: 10vh;
+}
+
+#banner h1 {
+	flex-grow: 1;
+	align-self: center;
+}
+/* OK So apparently I can't fix images with the knowledge we are provided */
+/* Forgive me for using flexboxes */
+/* derived from this answer https://stackoverflow.com/questions/11438910/how-to-display-items-side-by-side-without-using-tables/53216277#53216277 */
+.imagedesc {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+.centeredsection {
+	/* I've written in less before so i wish i could do children simpler but too bad! */
+	margin: auto;
+	width: 30vw;
+	flex: 1 0 90vh;
+	display: flex;
+	flex-direction: column;
+}
+.centeredsection > img {
+	align-self: center;
+	max-width: 90vw;
+}
+.imagedesc img {
+	width: 6vmin;
+	height: 6vmin;
+}
+
+#footer {
+	width: 100vw;
+	flex: 0 0 10vh;
+	align-self: flex-start;
+	/* please I beg you the outline */ 
+	margin: 0;
+	background-image: linear-gradient(180deg, crimson, #990000);
+	text-align: center;
+
+}
+/* media rule at the end to override any rules of same specificness */
+@media(max-width: 1000px) {
+	.centeredsection {
+		width: 70vw;
+		
+	}
+	body {
+		font-size: 3vmin;
+	}
+
+}
+
+/* tiny phones */
+@media(max-width: 500px) {
+	.centeredsection {
+		width: 90vw;
+	}
+}
+
+/*
+#footer a:link {
+	color: #00b7eb;
+}
+#footer a:visited {
+	color: #9966cc;
+}
+#footer a:hover {
+	color: #1ac1dd;
+
+}
+#footer a:active {
+	color: #062a78;
+}
+*/
+
+
