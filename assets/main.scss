@@ -1,4 +1,7 @@
-
+---
+# hi
+---
+@import "minima";
 
 html { margin: 0; padding: 0; }
 body {
@@ -22,7 +25,7 @@ body {
 .centered {
 	text-align: center;
 }
-#banner {
+.banner {
 	background-color: crimson;
 	color: white;
 	margin: 0 0 128px 0;
@@ -34,14 +37,14 @@ body {
 	display: flex;
 	flex-direction: row;
 }
-#banner > a {
+.banner > a {
 	flex-grow: 0;
 }
-#banner img {
+.banner img {
 	height: 10vh;
 }
 
-#banner h1 {
+.banner h1 {
 	flex-grow: 1;
 	align-self: center;
 }
@@ -53,7 +56,7 @@ body {
 	align-items: center;
 	flex-direction: row;
 }
-.centeredsection {
+main {
 	/* I've written in less before so i wish i could do children simpler but too bad! */
 	margin: auto;
 	width: 30vw;
@@ -61,24 +64,26 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-.centeredsection > img {
-	align-self: center;
-	max-width: 90vw;
-}
 .imagedesc img {
 	width: 6vmin;
 	height: 6vmin;
 }
 
-#footer {
+.site-footer {
 	width: 100vw;
 	flex: 0 0 10vh;
 	align-self: flex-start;
 	/* please I beg you the outline */ 
 	margin: 0;
 	background-image: linear-gradient(180deg, crimson, #990000);
-	text-align: center;
+	// text-align: center;
 
+}
+.footer-col {
+	color: #cecece;
+	a {
+		color: #c2c2ff;
+	}
 }
 /* media rule at the end to override any rules of same specificness */
 @media(max-width: 1000px) {
