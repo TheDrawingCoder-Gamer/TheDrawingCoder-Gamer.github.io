@@ -88,7 +88,7 @@ main {
 }
 /* media rule at the end to override any rules of same specificness */
 @media(max-width: 1000px) {
-	.centeredsection {
+	main {
 		width: 70vw;
 		
 	}
@@ -100,11 +100,16 @@ main {
 
 /* tiny phones */
 @media(max-width: 500px) {
-	.centeredsection {
+	main {
 		width: 90vw;
 	}
 }
 
+@media (orientation: portrait) {
+	main {
+		width: 90vw;
+	}
+}
 /*
 #footer a:link {
 	color: #00b7eb;
