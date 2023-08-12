@@ -1,11 +1,3 @@
-# intro idk
-
-Miller Gensch  - tall (6' 4") with red hair, tied back into a man bun. not as muscular as Cliff and focuses on reading
-Cliff Gayload Behringer - averge height (5' 11') with dirty blond hair. swimmer, sort of muscular (has a V shape going on)
-
-
-Cliff has to go to a bookstore i guess
-
 It's a new semester. Cliff needs a textbook for his English class. He doesn't really focus on his classes too much, but he still
 needs a good grade to be a professional swimmer. He heads over to the library and asks the librarian, if he can buy a textbook. 
 
