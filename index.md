@@ -1,5 +1,5 @@
 ---
-title: Dev Projects
+title: Projects
 ---
 ## Haxe
   - [Gorilla Mod Manager](gmm.html)
@@ -12,3 +12,6 @@ title: Dev Projects
 ## Rust and Haskell
   - [Lox](lox.html)
   - [Amiitool](amiitool.html)
+
+## English
+  - [Gay Story](gaystory.html)
