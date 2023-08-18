@@ -1,5 +1,6 @@
 ---
 title: Projects
+layout: home
 ---
 ## Haxe
   - [Gorilla Mod Manager](gmm.html)

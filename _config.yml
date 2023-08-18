@@ -29,10 +29,10 @@ github_username:  TheDrawingCoder-Gamer
 theme: minima
 plugins:
   - jekyll-feed
-minima: 
-  social_links:
-    - platform: mastadon
-      user_url: "https://toot.menkissing.gay/@bulbyvr"
+
+mastodon:
+  - username: bulbyvr
+    instance: toot.menkissing.gay
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
