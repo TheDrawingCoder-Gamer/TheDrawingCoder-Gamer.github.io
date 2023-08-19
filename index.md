@@ -14,5 +14,3 @@ layout: home
   - [Lox](lox.html)
   - [Amiitool](amiitool.html)
 
-## English
-  - [Gay Story](gaystory.html)
